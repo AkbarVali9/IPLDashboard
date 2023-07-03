@@ -84,7 +84,7 @@ class TeamMatches extends Component {
 
   renderLoader = () => (
     <div className="loader-container" testid="loader">
-      <Loader type="Oval" color="#ffffff" height={50} width={50} />
+      <Loader type="Rings" color="#6befff" height={50} width={50} />
     </div>
   )
 
